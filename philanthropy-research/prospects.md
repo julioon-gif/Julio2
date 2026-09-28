@@ -3,10 +3,11 @@
 Maintained by the weekly scan. One row per company. `Last checked` = date of the scan that last verified the row.
 Status values: `Not yet researched` · `Prospect` · `Watching` · `Not a fit`.
 Tier: 1 = direct cancer/ACS fit · 2 = craftable mission tie · 3 = long shot.
-Scope: companies headquartered in WA, OR, or ID (expanded from Puget Sound on 2026-09-28). New OR/ID/eastern WA rows are seeds only, not verified or exhaustive.
+Scope: companies headquartered in WA, OR, or ID, **plus** companies HQ'd elsewhere with a significant PNW presence (both added 2026-09-28). Rows marked `Not yet researched` are seeds only, not verified or exhaustive.
 
 | Company | HQ | Foundation / program | Tier | ACS program angle | Next deadline | Status | Last checked | Key source |
 |---|---|---|---|---|---|---|---|---|
+| Pfizer | New York, NY (PNW: Bothell oncology R&D, ex-Seagen) | National "Change the Odds" partnership with ACS (cancer care disparities); Pfizer oncology patient-support grants | 1 | Existing national ACS partnership → extend with a PNW/Bothell-site employee & community component | None published; national partnership (verify current status) | Prospect | 2026-09-28 | https://www.pfizer.com/news/announcements/change-odds-brings-pfizer-together-american-cancer-society-bridge-gap-cancer |
 | BECU | Tukwila, WA | BECU Foundation – People Helping People Awards ($15K–$50K; health focus incl. patient support, illness prevention/cure) | 1 | Patient support & prevention are named focus areas → Road to Recovery / navigation in King County | 2026 nominations closed; 2027 cycle TBD (unverified) | Prospect | 2026-09-28 | https://www.becu.org/members-matter/community-involvement/people-helping-people |
 | Costco | Issaquah, WA | Charitable Contributions (children, education, health & human services; via Benevity) | 2 | Health & human services → Road to Recovery rides / Hope Lodge nights for patients in warehouse communities | Rolling; ~3 mo. lead time, 4–6 wk review (third-party summary, verify) | Prospect | 2026-09-28 | https://costco.com/charitable-giving.html |
 | Kaiser Permanente Washington | Seattle, WA | Community Health Grants ($10K–$50K; invitation only) | 2 | "Access to healthcare" priority → screening access & navigation for underserved patients | Invite-only (2026 cycle listed June 1, unverified) | Prospect | 2026-09-28 | https://about.kaiserpermanente.org/expertise-and-impact/healthy-communities/communities-we-serve/washington-community/grants-and-sponsorships |
@@ -49,5 +50,19 @@ Scope: companies headquartered in WA, OR, or ID (expanded from Puget Sound on 20
 | NW Natural | Portland, OR | | | | | Not yet researched | | |
 | PacifiCorp | Portland, OR | | | | | Not yet researched | | |
 | Portland General Electric | Portland, OR | | | | | Not yet researched | | |
-
-_Out-of-scope lead (not HQ'd in WA/OR/ID):_ Pfizer runs a large oncology R&D site in Bothell (ex-Seagen) and has a national "Change the Odds" partnership with ACS on cancer care disparities. https://www.pfizer.com/news/announcements/change-odds-brings-pfizer-together-american-cancer-society-bridge-gap-cancer
+| Columbia Bank (Columbia Banking System) | Tacoma, WA | | | | | Not yet researched | | |
+| Bank of America | Charlotte, NC (PNW: statewide branches, Seattle & Portland market presidents) | | | | | Not yet researched | | |
+| KeyBank | Cleveland, OH (PNW: large WA/OR/ID branch network) | | | | | Not yet researched | | |
+| Wells Fargo | San Francisco, CA (PNW: branch network) | | | | | Not yet researched | | |
+| JPMorgan Chase | New York, NY (PNW: ex-WaMu branch network) | | | | | Not yet researched | | |
+| U.S. Bank | Minneapolis, MN (PNW: Portland regional HQ, branches) | | | | | Not yet researched | | |
+| Boeing | Arlington, VA (PNW: Puget Sound manufacturing, largest WA private employer) | | | | | Not yet researched | | |
+| Google | Mountain View, CA (PNW: Kirkland/Seattle offices, The Dalles OR data center) | | | | | Not yet researched | | |
+| Meta | Menlo Park, CA (PNW: Seattle/Bellevue offices, Prineville OR data center) | | | | | Not yet researched | | |
+| Intel | Santa Clara, CA (PNW: Hillsboro OR, largest Intel site) | | | | | Not yet researched | | |
+| Kroger (Fred Meyer, QFC) | Cincinnati, OH (PNW: Fred Meyer HQ Portland, QFC) | | | | | Not yet researched | | |
+| Bristol Myers Squibb | Princeton, NJ (PNW: Seattle cell-therapy site, ex-Juno) | | | | | Not yet researched | | |
+| Salesforce (Tableau) | San Francisco, CA (PNW: Seattle offices) | | | | | Not yet researched | | |
+| UnitedHealthcare | Minnetonka, MN (PNW: WA/OR health plans) | | | | | Not yet researched | | |
+| Comcast (Xfinity) | Philadelphia, PA (PNW: Pacific NW region HQ) | | | | | Not yet researched | | |
+| Walmart | Bentonville, AR (PNW: stores & distribution in WA/OR/ID) | | | | | Not yet researched | | |
