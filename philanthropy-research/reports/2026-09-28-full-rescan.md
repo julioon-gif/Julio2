@@ -4,14 +4,16 @@
 
 **Tracker:** now 93 companies. 62 are researched; 31 still need research because the session hit its web-search limit (details at the end).
 
-## Top 3 actions (most time-sensitive)
-1. **Meta Data Center Community Action Grants: closes Oct 19, 2026.** The eligible communities include Prineville/Crook County OR, and likely Kuna/Ada County ID, where a new data center opened Sep 2026. Meta funds technology, community and STEAM projects, so pitch a technology angle, such as digital navigation or ride scheduling for rural cancer patients. Apply through ChangeX. https://datacenters.atmeta.com/community-action-grants/
-2. **KeyBank Foundation Expression of Interest: 2026 window closes at the end of October.** Grants are $10K–$25K, and KeyBank invites a full application only after the EOI. Cancer isn't a KeyBank priority, so frame the ask as basic needs ("Neighbors"), such as rides or lodging. KeyBank previously gave $1M to Komen for outreach in WA and OR. https://www.seattlechamber.com/news/2025/08/11/member-news/keybank-celebrates-its-bicentennial-with-a-200000-foundation-grant-to-business-impact-northwest-in-washington/
-3. **Albertsons Companies Foundation (Safeway): prepare now for the January 2027 Seattle-region review.** Cancer is a named priority. First-time grants in the Seattle region are $2.5K–$10K. Also pitch a Safeway checkout campaign for Making Strides; Safeway has run cancer checkout campaigns before. http://safewayfoundation.org/get-funded/grant-funding-guidelines-seattle-wa-id-ak/
+## Correction (added after publishing)
+**Meta Data Center Community Action Grants were wrongly listed as the #1 action.** Julio checked Meta's page: the 2027 cycle's eligible communities are outside the US (Canada, Ireland, Singapore and others). The Oct 19 deadline doesn't apply to ACS in the PNW. The mistake happened because the research tool couldn't open Meta's page and relied on search snippets and past-cycle pages. **Every deadline and amount below is unverified until checked on the funder's own site.**
+
+## Top actions (verify on the funder's page first)
+1. **KeyBank Foundation Expression of Interest: reported to close at the end of October.** Grants are $10K–$25K; KeyBank invites a full application after the EOI. The window and amounts come from search snippets, so confirm them on key.com first. Frame the ask as basic needs (rides, lodging).
+2. **Albertsons Companies Foundation (Safeway): the Seattle region reportedly reviews applications in January.** Cancer is reportedly a named priority, and first-time grants are $2.5K–$10K (search snippet of safewayfoundation.org). Confirm on the guidelines page before applying: http://safewayfoundation.org/get-funded/grant-funding-guidelines-seattle-wa-id-ak/
+3. **Bristol Myers Squibb: start a Seattle conversation.** BMS reportedly already funds ACS nationally and has about 1,000 Seattle staff. Its giving portal reportedly accepts requests year-round. Confirm through ACS national partnership staff.
 
 ## Upcoming dates (next 90 days)
 - **Oct 10:** Making Strides Seattle at Pier 62. Nordstrom already has an employee team; use the day to talk about a sponsorship or a cause-marketing promotion.
-- **Oct 19:** the Meta Community Action Grants application closes.
 - **End of October:** the KeyBank EOI window closes.
 - **Now:** check PacificSource Foundation's third 2026 cycle. Its first two closed Jan 23 and Apr 24; the third cycle's date wasn't found. https://pacificsource.com/community/foundation
 - **October:** Microsoft's employee Give campaign (unverified). Make sure ACS is registered for Give Match.

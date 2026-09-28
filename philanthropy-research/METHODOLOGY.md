@@ -41,6 +41,9 @@ Record HQ as "City, ST". For presence companies, add the PNW footprint in parent
 - Regional market leadership (e.g., bank market presidents) and regional CSR/community-relations teams for presence companies
 
 ## Rules
+- **Verification before action.** A deadline, amount or eligibility rule may appear in "Top actions" or "Upcoming deadlines" only if it was read on the funder's own page (or its official PDF) in this run. If the page couldn't be opened, label the item "UNVERIFIED — confirm on funder site" and keep it out of the Top actions.
+- **Always check eligible geography.** Confirm the program covers WA, OR or ID (and US nonprofits) before listing it. Programs of global companies often run separate cycles by country.
+- **Search snippets and third-party grant directories are leads, not facts.** Never state them as confirmed.
 - Every factual claim needs a source URL. If a fact can't be verified, mark it "unverified". Never invent deadlines, amounts, or contacts.
 - Contacts: list only publicly posted roles and generic grant inboxes. Don't guess personal emails.
 - "New or changed" means: a newly identified prospect, a new or changed deadline or RFP, a new grant cycle,
