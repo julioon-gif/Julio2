@@ -2,7 +2,7 @@
 """Build data.json for the Portfolio Mission Matcher.
 
 Usage:
-  python3 build_matcher_data.py CAPITAL_FRAMEWORK.xlsx [STAGE2_MATCH.xlsx] -o OUT/data.json
+  python3 build_matcher_data.py CAPITAL_FRAMEWORK.xlsx [STAGE2_MATCH.xlsx] -o OUT/data.json [--private PRIVATE.json]
 
 Inputs
   CAPITAL_FRAMEWORK.xlsx  Julio's Capital Framework workbook (v4 layout: 'Capital Map v2',
@@ -156,7 +156,9 @@ def main():
     ap.add_argument("capital")
     ap.add_argument("stage2", nargs="?")
     ap.add_argument("-o", "--out", required=True)
+    ap.add_argument("--private", help="JSON with extra accounts, one-pagers shared after discovery, and ACS event dates (kept out of the repo)")
     a = ap.parse_args()
+    priv = json.loads(Path(a.private).read_text()) if a.private else {}
 
     accts, order = load_capital(a.capital)
     if a.stage2:
@@ -188,6 +190,26 @@ def main():
             acc["tier"] = int(acc["tier"])
         out_accts.append(acc)
 
+    # Accounts added outside the Capital Map (e.g. after a discovery meeting) and one-pagers already shared.
+    for extra in priv.get("accounts", []):
+        k = key(extra["name"])
+        if k in accts:
+            continue
+        extra.setdefault("id", re.sub(r"[^a-z0-9]+", "-", k).strip("-"))
+        t = tracker.get(extra.get("tracker", ""))
+        if t:
+            used_tracker.add(t["company"])
+            extra["tracker"] = t
+        extra.setdefault("funding", []); extra.setdefault("notes", []); extra.setdefault("tags", [])
+        extra["addedOutsideMap"] = True
+        out_accts.append(extra)
+    by_key = {key(x["name"]): x for x in out_accts}
+    for name, op in priv.get("onepagers", {}).items():
+        if key(name) in by_key:
+            by_key[key(name)]["onepager"] = op
+        else:
+            print("one-pager with no account:", name)
+
     scan = []
     for name, t in tracker.items():
         if name in used_tracker:
@@ -200,7 +222,7 @@ def main():
         "sources": {"capital": Path(a.capital).name, "stage2": Path(a.stage2).name if a.stage2 else None,
                     "tracker": "philanthropy-research/prospects.md"},
         "units": offerings["impact_units"], "offerings": offerings["offerings"],
-        "accounts": out_accts, "scan": scan, "acsEvents": research.get("acs_events", []),
+        "accounts": out_accts, "scan": scan, "acsEvents": research.get("acs_events", []) + priv.get("events", []),
     }
     Path(a.out).write_text(json.dumps(data, indent=1, default=str))
     print(f"accounts {len(out_accts)} · offerings {len(data['offerings'])} · scan prospects {len(scan)} · tracker matched {len(used_tracker)}")
