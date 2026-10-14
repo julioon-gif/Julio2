@@ -20,7 +20,7 @@ six-segment capital framework (Capital Function × Budget Pocket) and the Framew
 - **Shared with them**: the opportunities in one-pagers already sent after discovery meetings.
 - **Deadlines**: every dated item across the book (funder deadlines, your planned asks, ACS events,
   tripwires), with the option to add the weekly PNW scan prospects that aren't in the book yet.
-- **Offerings**: the 32-offering catalog with sources and the best-fit accounts for each offering.
+- **Offerings**: the 39-offering catalog with sources and the best-fit accounts for each offering.
 - **Add account**: new accounts are saved in the page's store and scored right away.
 
 ## How scoring works
