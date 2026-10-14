@@ -1,0 +1,884 @@
+{
+ "_about": "Public-source research per portfolio account, merged into the matcher by build_matcher_data.py. key = account name as it appears in the Capital Map (v4). tracker = matching Company in ../prospects.md (its funding row is pulled in automatically). tags/region drive offering scores. funding = dated paths at the company; kind: funder (their deadline), plan (Julio's own ask date), acs (ACS event), watch (tripwire). mark: V verified on the funder's own page/filing, U unverified, I internal. Researched 2026-10-14 unless noted.",
+ "accounts": {
+  "Adaptive Biotechnologies": {
+   "tracker": "Adaptive Biotechnologies",
+   "region": "Seattle, WA",
+   "tags": [
+    "life-sci",
+    "diagnostics",
+    "biotech",
+    "health",
+    "erg"
+   ],
+   "funding": [
+    {
+     "what": "Planned first ask (vehicle set by fall discovery)",
+     "date": "2027-02-28",
+     "kind": "plan",
+     "mark": "I",
+     "src": ""
+    }
+   ]
+  },
+  "Fortive Corp": {
+   "tracker": "Fortive",
+   "region": "Everett, WA",
+   "tags": [
+    "industrial",
+    "executive",
+    "everett",
+    "employees-large",
+    "volunteer"
+   ],
+   "funding": [
+    {
+     "what": "Parent-level gift (discovery-gated)",
+     "date": "2027-02-28",
+     "kind": "plan",
+     "mark": "I",
+     "src": ""
+    }
+   ]
+  },
+  "Fluke (Everett Gala line)": {
+   "tracker": "Fortive",
+   "region": "Everett, WA",
+   "tags": [
+    "industrial",
+    "everett"
+   ],
+   "notes": [
+    {
+     "text": "No public Fluke grant program found; the giving line runs through the existing gala relationship.",
+     "mark": "U",
+     "src": "https://www.fluke.com/en-us/industries"
+    }
+   ],
+   "funding": [
+    {
+     "what": "Night of Hope Everett Gala (Tulalip Resort): likely the Fluke gala line; confirm",
+     "date": "2026-10-30",
+     "kind": "acs",
+     "mark": "U",
+     "src": "https://everett.acsgala.org"
+    }
+   ]
+  },
+  "McKinstry": {
+   "tracker": "McKinstry",
+   "region": "Seattle, WA",
+   "tags": [
+    "built",
+    "trades",
+    "employees-large"
+   ]
+  },
+  "PCC Community Markets": {
+   "tracker": "PCC Community Markets",
+   "region": "Seattle, WA",
+   "tags": [
+    "food",
+    "grocery",
+    "retail-consumer",
+    "wellness",
+    "breast-incumbent"
+   ],
+   "funding": [
+    {
+     "what": "CEO Krish Srinivasan retires; no ask across the transition",
+     "date": "2027-01-29",
+     "kind": "watch",
+     "mark": "U",
+     "src": "https://www.grocerydive.com/news/pcc-community-markets-president-ceo-krish-srinivasan-retire/828380/"
+    }
+   ]
+  },
+  "Brighton Jones LLC": {
+   "tracker": "Brighton Jones",
+   "region": "Seattle, WA",
+   "tags": [
+    "finance",
+    "professional",
+    "women",
+    "volunteer"
+   ],
+   "notes": [
+    {
+     "text": "Richer Life Foundation gave $837,671 in grants in 2024; employees get a $25/hr volunteer match up to 40 hrs (from your June 24 research brief).",
+     "mark": "U",
+     "src": "https://www.guidestar.org/profile/74-3116756"
+    }
+   ],
+   "funding": [
+    {
+     "what": "Planned employee-champion gift via 1% program",
+     "date": "2027-02-28",
+     "kind": "plan",
+     "mark": "I",
+     "src": ""
+    }
+   ]
+  },
+  "F5 Networks": {
+   "tracker": "F5",
+   "region": "Seattle, WA",
+   "tags": [
+    "tech",
+    "employees-large",
+    "benevity",
+    "volunteer",
+    "kids"
+   ],
+   "funding": [
+    {
+     "what": "Giving Tuesday employee campaign window",
+     "date": "2026-12-01",
+     "kind": "funder",
+     "mark": "V",
+     "src": "https://github.com/julioon-gif/Julio2/blob/main/philanthropy-research/research-notes/2026-10-05/batch-a.md"
+    }
+   ]
+  },
+  "Auburn Mechanical": {
+   "tracker": "Auburn Mechanical",
+   "region": "Auburn, WA",
+   "tags": [
+    "built",
+    "trades",
+    "owner",
+    "health-system"
+   ],
+   "funding": [
+    {
+     "what": "First ask by end of Q4 FY27 (owner-directed gift)",
+     "date": "2027-03-31",
+     "kind": "plan",
+     "mark": "I",
+     "src": ""
+    }
+   ]
+  },
+  "Microsoft": {
+   "tracker": "Microsoft",
+   "region": "Redmond, WA",
+   "tags": [
+    "tech",
+    "employees-large",
+    "benevity",
+    "volunteer"
+   ],
+   "funding": [
+    {
+     "what": "October Give Month: the acquisition window for One Hour a Month (non-solicitation policy otherwise)",
+     "date": "2026-10-31",
+     "kind": "funder",
+     "mark": "U",
+     "src": "https://www.microsoft.com/en-us/corporate-responsibility/philanthropies/employee-engagement"
+    }
+   ]
+  },
+  "T-Mobile": {
+   "tracker": "T-Mobile US",
+   "region": "Bellevue, WA",
+   "tags": [
+    "tech",
+    "telecom",
+    "employees-large",
+    "erg"
+   ],
+   "funding": [
+    {
+     "what": "Readiness brief for the Magenta Giving Month selector",
+     "date": "2027-01-15",
+     "kind": "plan",
+     "mark": "I",
+     "src": ""
+    },
+    {
+     "what": "Magenta Giving Month (signature partners are selected, not applied for)",
+     "date": "2027-04-01",
+     "kind": "funder",
+     "mark": "U",
+     "src": "https://www.t-mobile.com/responsibility/community/hq-grants"
+    }
+   ]
+  },
+  "Numerica Credit Union": {
+   "tracker": "Numerica Credit Union",
+   "region": "Spokane Valley, WA",
+   "tags": [
+    "finance",
+    "spokane",
+    "eastern-wa",
+    "kids",
+    "rural"
+   ],
+   "funding": [
+    {
+     "what": "Donations and Charitable Fund cycles reopen 'early 2027' (verified on Numerica's page; Feb 1 is an estimate)",
+     "date": "2027-02-01",
+     "kind": "funder",
+     "mark": "U",
+     "src": "https://github.com/julioon-gif/Julio2/blob/main/philanthropy-research/research-notes/2026-10-05/batch-a.md"
+    }
+   ]
+  },
+  "Mechanics Bank (fmr HomeStreet)": {
+   "tracker": "Mechanics Bank (formerly HomeStreet)",
+   "region": "Seattle, WA (HQ Walnut Creek, CA)",
+   "tags": [
+    "finance",
+    "basic-needs"
+   ]
+  },
+  "Wagstaff Inc": {
+   "tracker": "Wagstaff",
+   "region": "Spokane Valley, WA",
+   "tags": [
+    "industrial",
+    "owner",
+    "spokane",
+    "eastern-wa",
+    "rural"
+   ]
+  },
+  "evo.com": {
+   "tracker": "evo",
+   "region": "Seattle, WA",
+   "tags": [
+    "outdoor",
+    "retail-consumer",
+    "brand",
+    "volunteer"
+   ]
+  },
+  "Superfeet": {
+   "tracker": "Superfeet",
+   "region": "Ferndale, WA",
+   "tags": [
+    "wellness",
+    "health",
+    "outdoor",
+    "retail-consumer",
+    "brand"
+   ]
+  },
+  "Apree Health": {
+   "tracker": "Apree Health",
+   "region": "Seattle, WA",
+   "tags": [
+    "health",
+    "health-system",
+    "wellness",
+    "insurer"
+   ]
+  },
+  "Aon Hewitt": {
+   "tracker": "Aon",
+   "region": "Seattle, WA",
+   "tags": [
+    "finance",
+    "professional",
+    "employees-large",
+    "insurer"
+   ],
+   "notes": [
+    {
+     "text": "Aon is a 2026 Silver Sponsor of an ACS gala in Green Bay, WI: precedent for a Seattle ask.",
+     "mark": "V",
+     "src": "https://github.com/julioon-gif/Julio2/blob/main/philanthropy-research/research-notes/2026-10-12/batch-a.md"
+    }
+   ]
+  },
+  "QFC": {
+   "tracker": "Kroger (Fred Meyer, QFC)",
+   "region": "Bellevue, WA (Kroger division)",
+   "tags": [
+    "food",
+    "grocery",
+    "retail-consumer"
+   ],
+   "funding": [
+    {
+     "what": "Kroger Co. Foundation quarterly grant deadline (health & nutrition focus area) via communitygifts.com",
+     "date": "2026-12-04",
+     "kind": "funder",
+     "mark": "V",
+     "src": "https://www.communitygifts.com"
+    }
+   ]
+  },
+  "Avanade Inc": {
+   "tracker": "Avanade",
+   "region": "Seattle, WA",
+   "tags": [
+    "tech",
+    "employees-large",
+    "benevity"
+   ],
+   "funding": [
+    {
+     "what": "Holiday giving campaign (dates not posted)",
+     "date": "2026-12-01",
+     "kind": "funder",
+     "mark": "U",
+     "src": "https://github.com/julioon-gif/Julio2/blob/main/philanthropy-research/research-notes/2026-10-12/batch-a.md"
+    }
+   ]
+  },
+  "Stanley 1913": {
+   "tracker": "Stanley 1913",
+   "region": "Seattle, WA",
+   "tags": [
+    "brand",
+    "drinkware",
+    "retail-consumer",
+    "outdoor"
+   ]
+  },
+  "Submittable": {
+   "tracker": "Submittable",
+   "region": "Missoula, MT",
+   "tags": [
+    "tech",
+    "platform"
+   ]
+  },
+  "KPFF Consulting Engineers": {
+   "tracker": "KPFF Consulting Engineers",
+   "region": "Seattle, WA",
+   "tags": [
+    "built",
+    "professional",
+    "stem"
+   ]
+  },
+  "eXp World Holdings Inc (now AGNT, Inc.)": {
+   "tracker": "eXp World Holdings (now AGNT, Inc.)",
+   "region": "Bellingham, WA",
+   "tags": [
+    "finance",
+    "real-estate"
+   ]
+  },
+  "Silver Cloud Inns and Hotels": {
+   "tracker": "Silver Cloud Hotels",
+   "region": "Seattle, WA",
+   "tags": [
+    "hospitality",
+    "owner",
+    "in-kind"
+   ],
+   "notes": [
+    {
+     "text": "Silver Cloud Foundation gave $15K to ACS in 2023 (990-PF) and gives Fred Hutch $250K/yr; Lake Union property is on the same block as Fred Hutch.",
+     "mark": "V",
+     "src": "https://github.com/julioon-gif/Julio2/blob/main/philanthropy-research/research-notes/2026-10-05/batch-c.md"
+    }
+   ]
+  },
+  "Zones": {
+   "region": "Auburn, WA",
+   "tags": [
+    "tech",
+    "owner"
+   ],
+   "notes": [
+    {
+     "text": "Firoz and Najma Lalji Foundation funds arts, education and UW; does not accept unsolicited proposals.",
+     "mark": "U",
+     "src": "https://www.insidephilanthropy.com/washington-grants/tag/LSE"
+    }
+   ],
+   "funding": [
+    {
+     "what": "Tripwire due: re-check CSR/HR leadership under the new CEO (your Oct 2026 rule)",
+     "date": "2026-10-31",
+     "kind": "watch",
+     "mark": "I",
+     "src": ""
+    }
+   ]
+  },
+  "AGC Biologics": {
+   "region": "Bothell, WA",
+   "tags": [
+    "life-sci",
+    "biotech"
+   ],
+   "notes": [
+    {
+     "text": "Restructured in Nov 2024 (95 layoffs incl. 10 in Bothell) and late 2025 (275+ layoffs, Colorado closures, 9 Bothell roles).",
+     "mark": "U",
+     "src": "https://www.pharmamanufacturing.com/industry-news/news/55317631/agc-biologics-to-shut-colorado-sites-cut-more-than-275-jobs"
+    }
+   ]
+  },
+  "Impinj": {
+   "region": "Seattle, WA",
+   "tags": [
+    "tech",
+    "volunteer",
+    "employees-large"
+   ],
+   "notes": [
+    {
+     "text": "Impinj Cares (since 2022) is employee-led giving with company match and 16 paid volunteer hours per year. Gave $5k+ to the Leukemia & Lymphoma Society; staff volunteered at Lifelong meals for people facing illness (blog, Jul 18, 2023).",
+     "mark": "V",
+     "src": "https://www.impinj.com/library/blog/impinj-employees-bring-human-connection-to-corporate-giving"
+    }
+   ]
+  },
+  "MedBridge": {
+   "region": "Seattle, WA",
+   "tags": [
+    "health",
+    "tech"
+   ],
+   "notes": [
+    {
+     "text": "No public giving program found in a web search.",
+     "mark": "U",
+     "src": ""
+    }
+   ]
+  },
+  "Keller Supply Company": {
+   "region": "Seattle, WA",
+   "tags": [
+    "owner",
+    "trades",
+    "built"
+   ],
+   "notes": [
+    {
+     "text": "Several Seattle 'Keller' family foundations exist (Nick & Michele Keller FF ~$315K/yr; Howard & Frances Keller FF), but none is linked to Keller Supply in public sources. Ask AMS before assuming.",
+     "mark": "U",
+     "src": "https://www.theshareway.com/funder/nick--37728"
+    }
+   ]
+  },
+  "Oberto Snacks Inc.": {
+   "region": "Kent, WA",
+   "tags": [
+    "food",
+    "brand",
+    "retail-consumer",
+    "employees-large"
+   ],
+   "notes": [
+    {
+     "text": "Owned by Premium Brands Holdings since 2018; 500+ employees in Kent. No public giving program found.",
+     "mark": "U",
+     "src": "https://en.wikipedia.org/wiki/Oberto_Snacks_Inc."
+    }
+   ]
+  },
+  "Filson Holdings Inc": {
+   "region": "Seattle, WA",
+   "tags": [
+    "apparel",
+    "brand",
+    "outdoor",
+    "retail-consumer"
+   ],
+   "notes": [
+    {
+     "text": "Giving found is conservation-only ($25K to the Conservation Alliance from its Seconds Sale).",
+     "mark": "U",
+     "src": "https://conservationalliance.com/?p=156"
+    }
+   ]
+  },
+  "K2 Sports, LLC": {
+   "region": "Seattle, WA",
+   "tags": [
+    "outdoor",
+    "brand",
+    "retail-consumer"
+   ]
+  },
+  "Amperity": {
+   "region": "Seattle, WA",
+   "tags": [
+    "tech"
+   ]
+  },
+  "Appen US": {
+   "region": "Kirkland, WA",
+   "tags": [
+    "tech"
+   ]
+  },
+  "Arenanet": {
+   "region": "Bellevue, WA",
+   "tags": [
+    "gaming",
+    "kids",
+    "tech"
+   ],
+   "notes": [
+    {
+     "text": "Main charity is Extra Life (Children's Miracle Network): $1M+ raised; 2026 livestreams Nov 13-14, ArenaNet matches once donations hit $25K. Competing pediatric cause; Gold Together is the only natural ACS bridge.",
+     "mark": "U",
+     "src": "https://massivelyop.com/2026/10/08/guild-wars-2-tees-up-livestreams-and-events-to-support-extra-life-charity/"
+    }
+   ]
+  },
+  "Pineapple Hospitality": {
+   "region": "Seattle, WA",
+   "tags": [
+    "hospitality",
+    "in-kind",
+    "owner"
+   ]
+  },
+  "Williams & Nulle, LLC": {
+   "region": "Yakima, WA",
+   "tags": [
+    "professional",
+    "rural",
+    "eastern-wa",
+    "owner"
+   ]
+  },
+  "Ewing & Clark": {
+   "region": "Seattle, WA",
+   "tags": [
+    "real-estate",
+    "owner"
+   ]
+  },
+  "Sunrise Financial Services": {
+   "region": "WA",
+   "tags": [
+    "finance",
+    "owner",
+    "wellness"
+   ]
+  },
+  "Emerald City Smoothie": {
+   "region": "WA",
+   "tags": [
+    "food",
+    "restaurant",
+    "wellness"
+   ]
+  },
+  "Holman Logistics": {
+   "region": "Kent, WA",
+   "tags": [
+    "logistics",
+    "transport",
+    "owner",
+    "employees-large"
+   ],
+   "notes": [
+    {
+     "text": "Family-owned 3PL (Clark family since the Depression; roots in Portland, 1864), ~1,400 employees per third-party data. Do NOT confuse with Holman (holman.com, the NJ fleet company) whose Community Grants are a different company.",
+     "mark": "U",
+     "src": "https://thenewwarehouse.buzzsprout.com/824608/episodes/17069119-ep-585-holman-logistics-on-longevity-loyalty-and-a-people-first-approach"
+    }
+   ]
+  },
+  "NAES Corporation": {
+   "region": "Issaquah, WA",
+   "tags": [
+    "industrial",
+    "trades"
+   ]
+  },
+  "OAC Services, Inc.": {
+   "region": "Seattle, WA",
+   "tags": [
+    "built",
+    "professional"
+   ]
+  },
+  "Holmberg Mechanical": {
+   "region": "WA",
+   "tags": [
+    "built",
+    "trades",
+    "owner"
+   ]
+  },
+  "Puget Sound Pipe & Supply": {
+   "region": "WA",
+   "tags": [
+    "built",
+    "trades",
+    "owner"
+   ]
+  },
+  "Resource Management, Inc": {
+   "region": "WA",
+   "tags": []
+  },
+  "Greensource Inc": {
+   "region": "WA",
+   "tags": []
+  },
+  "Rosanna Inc": {
+   "region": "WA",
+   "tags": [
+    "brand",
+    "retail-consumer",
+    "women"
+   ]
+  },
+  "Workpointe": {
+   "region": "WA",
+   "tags": [
+    "owner"
+   ]
+  },
+  "Sana Biotechnology": {
+   "tracker": "Sana Biotechnology",
+   "region": "Seattle, WA",
+   "tags": [
+    "life-sci",
+    "biotech"
+   ]
+  },
+  "Achieve Life Sciences, Inc.": {
+   "region": "Bothell, WA",
+   "tags": [
+    "life-sci",
+    "pharma",
+    "tobacco"
+   ],
+   "notes": [
+    {
+     "text": "FDA issued a Complete Response Letter on cytisinicline (smoking cessation) on Jun 22, 2026 for third-party manufacturing observations, not efficacy or safety. Company plans to resubmit in Q4 2026 and expects US launch in H1 2027; raised up to $354M in Apr 2026.",
+     "mark": "V",
+     "src": "https://www.sec.gov/Archives/edgar/data/0000949858/000119312526218175/d854692dex991.htm"
+    }
+   ],
+   "funding": [
+    {
+     "what": "Tripwire: NDA resubmission expected (re-open on approval, not before)",
+     "date": "2026-12-31",
+     "kind": "watch",
+     "mark": "V",
+     "src": "https://www.sec.gov/Archives/edgar/data/0000949858/000119312526218175/d854692dex991.htm"
+    }
+   ]
+  },
+  "Athira Pharma": {
+   "region": "Bothell, WA",
+   "tags": [
+    "life-sci",
+    "pharma"
+   ]
+  },
+  "Aptevo Therapeutics": {
+   "region": "Seattle, WA",
+   "tags": [
+    "life-sci",
+    "pharma"
+   ]
+  },
+  "Aminex Therapeutics": {
+   "region": "Kirkland, WA",
+   "tags": [
+    "life-sci",
+    "pharma"
+   ]
+  },
+  "Cray Inc": {
+   "region": "Seattle, WA",
+   "tags": [
+    "tech"
+   ],
+   "notes": [
+    {
+     "text": "Now HPE. HPE Foundation lists health care & life sciences among its priorities; local money is employee-nominated Community Impact Grants.",
+     "mark": "U",
+     "src": "https://community.hpe.com/t5/advancing-life-work/hpe-foundation-awards-200-000-to-employee-nominated-nonprofits/ba-p/6976681"
+    }
+   ]
+  },
+  "Apptio, Inc.": {
+   "region": "Bellevue, WA",
+   "tags": [
+    "tech"
+   ]
+  },
+  "Limeade": {
+   "region": "Bellevue, WA",
+   "tags": [
+    "tech",
+    "wellness"
+   ]
+  },
+  "Alpine Immune Sciences, Inc.": {
+   "region": "Seattle, WA",
+   "tags": [
+    "life-sci"
+   ]
+  },
+  "Cambia Health Solutions / Foundation": {
+   "tracker": "Cambia Health (Regence)",
+   "region": "Portland, OR",
+   "tags": [
+    "insurer",
+    "health",
+    "health-system",
+    "oregon",
+    "caregivers"
+   ],
+   "notes": [
+    {
+     "text": "PITCH CHANGE: Cambia's own page lists a 2022-2026 plan that prioritizes behavioral health in three areas (children to age 8, adults 55+, paid and unpaid caregivers) in OR/WA/ID/UT. Serious illness and palliative care are not listed. Reframe toward cancer caregivers' mental health and aging adults.",
+     "mark": "V",
+     "src": "https://cambiahealth.com/about-us/cambia-health-foundation"
+    },
+    {
+     "text": "Third-party grant listings say the Sojourns palliative program formally concluded in 2026; 2026 RFPs (Workforce, Aging) closed Apr 9; a school-based RFP was expected Sep 2026. Proposals are by RFP only, 10% indirect cap.",
+     "mark": "U",
+     "src": "https://grantedai.com/grants/health-care-workforce-request-for-proposals-rfp-cambia-health-foundation-c4a8b513"
+    }
+   ],
+   "funding": [
+    {
+     "what": "Planned grant ask (see the v4 Opportunities tab)",
+     "date": "2027-03-31",
+     "kind": "plan",
+     "mark": "I",
+     "src": ""
+    },
+    {
+     "what": "New strategic plan expected after the 2022-2026 plan ends: watch for 2027 RFPs",
+     "date": "2027-01-15",
+     "kind": "watch",
+     "mark": "U",
+     "src": "https://cambiahealth.com/about-us/cambia-health-foundation"
+    }
+   ]
+  },
+  "Capitol Auto Group": {
+   "region": "Salem, OR",
+   "tags": [
+    "auto",
+    "owner",
+    "employees-large",
+    "united-way",
+    "oregon",
+    "transport"
+   ],
+   "notes": [
+    {
+     "text": "2025 employee campaign raised ~$435K for United Way of the Mid-Willamette Valley (goal $405K; 82% of 443 employees gave; $3M+ over a decade). Campaign runs each February ('28 Days of Love').",
+     "mark": "U",
+     "src": "https://www.einpresswire.com/article_print/805291661/oregon-s-capitol-auto-group-employee-campaign-raises-435k-for-the-united-way-of-the-mid-willamette-valley"
+    }
+   ],
+   "funding": [
+    {
+     "what": "Annual February employee campaign: designated-beneficiary decision must land before it starts",
+     "date": "2027-02-01",
+     "kind": "funder",
+     "mark": "U",
+     "src": "https://www.einpresswire.com/article_print/805291661/oregon-s-capitol-auto-group-employee-campaign-raises-435k-for-the-united-way-of-the-mid-willamette-valley"
+    }
+   ]
+  },
+  "Movement Mortgage": {
+   "region": "Oregon branch (HQ Indian Land, SC)",
+   "tags": [
+    "finance",
+    "real-estate",
+    "oregon"
+   ],
+   "notes": [
+    {
+     "text": "No Oregon-specific Movement Foundation program found.",
+     "mark": "U",
+     "src": ""
+    }
+   ]
+  },
+  "Fred Meyer Jewelers": {
+   "region": "Portland, OR (Signet)",
+   "tags": [
+    "retail-consumer",
+    "brand",
+    "women",
+    "oregon",
+    "breast"
+   ],
+   "notes": [
+    {
+     "text": "Signet Love Inspires Foundation (since 2021) funds underserved women and children and equality causes, and matches team-member gifts.",
+     "mark": "U",
+     "src": "https://www.signetjewelers.com/investors/financial-news-releases/financial-news-release/2021/Signet-Launches-Signet-Love-Inspires-Foundation/default.aspx"
+    }
+   ]
+  },
+  "Old Spaghetti Factory (OSF)": {
+   "region": "Portland, OR",
+   "tags": [
+    "food",
+    "restaurant",
+    "owner",
+    "oregon"
+   ],
+   "notes": [
+    {
+     "text": "No public record of the ACS campaign; the live thread is internal.",
+     "mark": "I",
+     "src": ""
+    }
+   ]
+  },
+  "Bonaventure Senior Living": {
+   "region": "Salem, OR",
+   "tags": [
+    "health",
+    "caregivers",
+    "owner",
+    "oregon"
+   ],
+   "notes": [
+    {
+     "text": "Top fundraising company for the 2025 Salem Walk to End Alzheimer's (presenting sponsor 2024-25); sponsors Marion-Polk Food Share and others; 'Bonaventure and You' lets residents direct $1,000 gifts.",
+     "mark": "U",
+     "src": "https://markets.financialcontent.com/lightport.lightport1/article/abnewswire-2025-11-25-bonaventure-senior-living-deepens-local-roots-with-record-community-giving-and-expansion"
+    }
+   ]
+  },
+  "Oregon Beverage Recycling Coop (BottleDrop Give)": {
+   "region": "Portland, OR",
+   "tags": [
+    "platform",
+    "oregon"
+   ],
+   "notes": [
+    {
+     "text": "Earth Week Give grants were $500 each (deadline Apr 1, 2026, passed). BottleDrop Fund via Oregon Community Foundation is invitation-only.",
+     "mark": "U",
+     "src": "https://bottledrop.com/earth-week-give-2026/grant/"
+    }
+   ],
+   "funding": [
+    {
+     "what": "Enroll ACS in BottleDrop Give before the 2027 Earth Week Give (expect ~Apr 1 grant deadline, unconfirmed)",
+     "date": "2027-03-01",
+     "kind": "plan",
+     "mark": "U",
+     "src": "https://bottledrop.com/earth-week-give-2026/grant/"
+    }
+   ]
+  }
+ },
+ "acs_events": [
+  {
+   "what": "Giving Tuesday",
+   "date": "2026-12-01",
+   "mark": "V",
+   "src": ""
+  }
+ ]
+}
