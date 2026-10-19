@@ -7,7 +7,14 @@ r=subprocess.run(["curl","-sL","-m","40","-A","Mozilla/5.0 (Windows NT 10.0; Win
 print("HTTP",r.stdout)
 data=open(path,'rb').read()
 if data[:4]==b'%PDF':
-    t=subprocess.run(["pdftotext","-layout",path,"-"],capture_output=True,text=True).stdout
+    try:
+        t=subprocess.run(["pdftotext","-layout",path,"-"],capture_output=True,text=True).stdout
+    except FileNotFoundError:
+        try:
+            from pypdf import PdfReader
+            t="\n".join((pg.extract_text() or "") for pg in PdfReader(path).pages)
+        except Exception as e:
+            t=f"(could not read PDF: {e})"
 else:
     t=data.decode('utf-8','ignore')
     t=re.sub(r'(?is)<(script|style|noscript).*?</\1>','',t)
